@@ -34,3 +34,4 @@ $url = "https://github.com/CharlesTheGreat77/BadSteganography/raw/main/audio/rai
 $messageLength = 200 * 8  # Length of message
 $req = (Invoke-WebRequest -Uri $url -Method Get -UseBasicParsing).Content
 $decodedMessage = Decode-SpreadSpectrumAudio -audioBytes $req -messageLength $messageLength
+"$decodedMessage"
