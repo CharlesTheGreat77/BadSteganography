@@ -17,7 +17,7 @@ For the spread spectrum encoding script, grab a audio file.
 4. Run the py file and save the length of the message
 5. In the decoder, replace the message Length variable to whatever the length of your message is (leave it as a multiple of 8)
 ![Screenshot 2024-01-15 at 1 12 20 PM](https://github.com/CharlesTheGreat77/BadSteganography/assets/27988707/16c9cdc6-ba85-41fb-8beb-d113d976f8b8)
-7. Lastly, replace the url in the decoder to where your decoder will be hosted.
+7. Lastly, replace the url in the decoder to where your newly encoded audio file will be hosted.
 
 # Example
 This default payload grabs the contents of the decoder, which then downloads the audio to memory, decodes the message, and executes the command with Invoke-Expression
