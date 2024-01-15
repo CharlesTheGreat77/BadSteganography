@@ -33,4 +33,4 @@ function Decode-SpreadSpectrumAudio {
 $url = "https://github.com/CharlesTheGreat77/BadSteganography/raw/main/audio/rain.wav"
 $messageLength = 200 * 8  # Length of message
 $req = (Invoke-WebRequest -Uri $url -Method Get -UseBasicParsing).Content
-$decodedMessage = Decode-SpreadSpectrumAudio -audioBytes $req -messageLength $messageLengt
+$decodedMessage = Decode-SpreadSpectrumAudio -audioBytes $req -messageLength $messageLength
