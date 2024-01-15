@@ -15,7 +15,7 @@ For the spread spectrum encoding script, grab a audio file.
 2. Replace the message with whatever command in the py file
 ![BadSteganographyspread_spectrum_decode txt at main · CharlesTheGreat77BadSteganography](https://github.com/CharlesTheGreat77/BadSteganography/assets/27988707/c184577f-c9b1-4bd6-a2ce-643e0a6abf43)
 4. Run the py file and save the length of the message
-5. In the decoder, replace the message Length variable to whatever the length of your message is
+5. In the decoder, replace the message Length variable to whatever the length of your message is (leave it as a multiple of 8)
 ![Screenshot 2024-01-15 at 1 12 20 PM](https://github.com/CharlesTheGreat77/BadSteganography/assets/27988707/16c9cdc6-ba85-41fb-8beb-d113d976f8b8)
 7. Lastly, replace the url in the decoder to where your decoder will be hosted.
 
